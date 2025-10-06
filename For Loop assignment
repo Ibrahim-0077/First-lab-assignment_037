@@ -1,0 +1,58 @@
+for i in range(2, 21, 2):
+    print(i)
+
+
+    
+
+names = ["ali", "ahmed", "evelyn", "fatima"]
+for name in names:
+    print(name.upper())
+
+
+
+for i in range(10, 0, -1):
+    print(i)
+
+    
+
+numbers = [3, 5, 9, 12, 14, 18, 20]
+for huge in numbers:
+    if huge % 3 == 0:
+        print(huge)
+
+        
+
+for i in range(1, 11):
+    print(i**2)
+
+
+
+temp_c = [0, 20, 30, 40, 100]
+for cel in temp_c:
+    fah = (c * 9/5) + 32
+    print(fah)
+
+
+
+for i in range(1, 11):
+    print("5 x", i, "=", 5*i)
+
+
+
+nums = [1, 2, 3, 4, 5, 6]
+total = 0
+for n in nums:
+    total += n
+print(total)
+
+
+
+text = "Python"
+for ch in text:
+    print(ch)
+
+
+fruits = ["apple", "banana", "strawberry", "pear", "pineapple"]
+for fruit in fruits:
+    if len(fruit) > 5:
+        print(fruit)
